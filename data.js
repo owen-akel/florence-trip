@@ -42,7 +42,7 @@ const TRIP_DATA = {
               distance: "15 min walk from hotel (Oltrarno)",
               rating: "4.5/5 TripAdvisor (2,400+ reviews)",
               price: "€3–6",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1080414-Reviews-Gelateria_della_Passera-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1861207-Reviews-Gelateria_della_Passera-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -53,7 +53,7 @@ const TRIP_DATA = {
               distance: "15 min walk from hotel",
               rating: "4.5/5 TripAdvisor (2,000+ reviews)",
               price: "€3–6",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1066498-Reviews-Carabe-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1109185-Reviews-Gelateria_Carabe-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -64,7 +64,7 @@ const TRIP_DATA = {
               distance: "12 min walk from hotel (north)",
               rating: "4.5/5 Google (1,500+ reviews)",
               price: "€3–5",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d8592091-Reviews-Gelateria_de_Medici-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d942830-Reviews-Gelateria_de_Medici-Florence_Tuscany.html",
               bookingRequired: false
             }
           ]
@@ -119,7 +119,7 @@ const TRIP_DATA = {
               distance: "5 min walk from hotel",
               rating: "4.5/5 TripAdvisor (2,600+ reviews)",
               price: "€40–60/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d697498-Reviews-Trattoria_Sostanza_Il_Troia-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d743678-Reviews-Trattoria_Sostanza-Florence_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Call +39 055 212691 — no online booking. Reserve 2–3 days ahead."
             },
@@ -131,7 +131,7 @@ const TRIP_DATA = {
               distance: "10 min walk from hotel",
               rating: "4.5/5 TripAdvisor (400+ reviews)",
               price: "€25–40/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1518498-Reviews-Osteria_Vecchio_Cancello-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d8322795-Reviews-Osteria_Vecchio_Cancello-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -142,7 +142,7 @@ const TRIP_DATA = {
               distance: "8 min walk from hotel",
               rating: "4.5/5 TripAdvisor (600+ reviews)",
               price: "€25–40/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12963830-Reviews-Tehran_Restaurant-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d11890777-Reviews-Ristorante_Persiano_Tehran-Florence_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Reserve on TheFork or call the restaurant."
             },
@@ -154,7 +154,7 @@ const TRIP_DATA = {
               distance: "10 min walk from hotel",
               rating: "4.5/5 TripAdvisor (1,800+ reviews)",
               price: "€50–70/person",
-              link: "https://www.konnubio.it",
+              link: "https://www.konnubio.com",
               bookingRequired: true,
               bookingInfo: "Book on their website or via TheFork."
             }
@@ -186,7 +186,7 @@ const TRIP_DATA = {
               distance: "5 min walk from hotel",
               rating: "4.5/5 TripAdvisor",
               price: "€10–18",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d17548498-Reviews-Tino_Bistro-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d14760017-Reviews-Tino_Bistro_Ex_Tino_Caffe-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -197,7 +197,7 @@ const TRIP_DATA = {
               distance: "10 min walk from hotel",
               rating: "4.5/5 TripAdvisor (700+ reviews)",
               price: "€10–16",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12176588-Reviews-Rooster_Cafe-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12962718-Reviews-Rooster_Cafe_Firenze-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -272,7 +272,7 @@ const TRIP_DATA = {
               distance: "8 min walk from hotel (near Mercato Centrale)",
               rating: "4.0/5 TripAdvisor (6,500+ reviews)",
               price: "€10–18/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d697395-Reviews-Trattoria_Mario-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1088282-Reviews-Trattoria_Mario-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -306,7 +306,7 @@ const TRIP_DATA = {
               distance: "10 min walk from hotel",
               rating: "4.0/5 TripAdvisor (500+ reviews)",
               price: "€12–18/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12189498-Reviews-Banki_Ramen-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d3678330-Reviews-Banki_Ramen-Florence_Tuscany.html",
               bookingRequired: false
             }
           ]
@@ -522,7 +522,7 @@ const TRIP_DATA = {
               distance: "In Forte dei Marmi",
               rating: "4.5/5 TripAdvisor",
               price: "€40–80 for umbrella + 2 loungers; lunch separate",
-              link: "https://www.tripadvisor.com/Attraction_Review-g194766-d4859483-Reviews-Bagno_Piero-Forte_dei_Marmi_Province_of_Lucca_Tuscany.html",
+              link: "https://www.tripadvisor.com/Attraction_Review-g194766-d10486938-Reviews-Bagno_Piero-Forte_dei_Marmi_Province_of_Lucca_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Call ahead in peak season, especially weekends."
             },
@@ -533,7 +533,7 @@ const TRIP_DATA = {
               distance: "In Forte dei Marmi",
               rating: "4.0/5 TripAdvisor",
               price: "€40–80 for umbrella + 2 loungers",
-              link: "https://www.tripadvisor.com/Attraction_Review-g194766-d12721697-Reviews-Bagno_Annetta-Forte_dei_Marmi_Province_of_Lucca_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g194766-d3533130-Reviews-Bagno_Annetta-Forte_dei_Marmi_Province_of_Lucca_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Reserve in advance for weekends."
             },
@@ -544,7 +544,7 @@ const TRIP_DATA = {
               distance: "In Viareggio (10 min from station)",
               rating: "4.5/5 TripAdvisor",
               price: "€25–40 for umbrella + 2 loungers",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g194946-d2366476-Reviews-Bagno_Irene-Viareggio_Province_of_Lucca_Tuscany.html",
+              link: "https://www.tripadvisor.com/Attraction_Review-g194946-d4889791-Reviews-Bagno_Irene-Viareggio_Province_of_Lucca_Tuscany.html",
               bookingRequired: false
             }
           ]
@@ -562,7 +562,7 @@ const TRIP_DATA = {
               distance: "In Forte dei Marmi center",
               rating: "4.5/5 TripAdvisor",
               price: "€40–60/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g194766-d1039024-Reviews-Osteria_del_Mare-Forte_dei_Marmi_Province_of_Lucca_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g194766-d947867-Reviews-Osteria_del_Mare-Forte_dei_Marmi_Province_of_Lucca_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Reserve for lunch — it fills up in summer."
             },
@@ -574,7 +574,7 @@ const TRIP_DATA = {
               distance: "In Forte dei Marmi center",
               rating: "4.5/5 TripAdvisor (1,500+ reviews)",
               price: "€70–100/person",
-              link: "https://www.lorenzoristorante.com",
+              link: "https://www.ristorantelorenzo.com",
               bookingRequired: true,
               bookingInfo: "Essential to book — reserve via their website or call."
             },
@@ -586,7 +586,7 @@ const TRIP_DATA = {
               distance: "In Viareggio (Darsena district)",
               rating: "4.5/5 TripAdvisor",
               price: "€25–40/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g194946-d3519296-Reviews-Trattoria_Buonamico-Viareggio_Province_of_Lucca_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g194946-d743714-Reviews-Trattoria_Buonamico-Viareggio_Province_of_Lucca_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Book for lunch, especially weekends."
             }
@@ -623,7 +623,7 @@ const TRIP_DATA = {
               distance: "15 min walk from hotel",
               rating: "4.0/5 TripAdvisor (900+ reviews)",
               price: "€15–25/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1035684-Reviews-Trattoria_Brindellone-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1109363-Reviews-I_Brindellone-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -634,7 +634,7 @@ const TRIP_DATA = {
               distance: "15 min walk from hotel",
               rating: "4.5/5 TripAdvisor (200+ reviews)",
               price: "€8–15/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d15072917-Reviews-Santo_Falafel-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d20009104-Reviews-Santo_Falafel-Florence_Tuscany.html",
               bookingRequired: false
             }
           ]
@@ -750,7 +750,7 @@ const TRIP_DATA = {
               distance: "Near Ferrari Museum",
               rating: "4.5/5 TripAdvisor (1,200+ reviews)",
               price: "€20–35/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187802-d1222547-Reviews-Ristorante_Montana-Maranello_Province_of_Modena_Emilia_Romagna.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g1054731-d5814015-Reviews-Ristorante_Montana-Fiorano_Modenese_Province_of_Modena_Emilia_Romagna.html",
               bookingRequired: true,
               bookingInfo: "Reserve for lunch — it's popular with museum visitors."
             },
@@ -762,7 +762,7 @@ const TRIP_DATA = {
               distance: "Near Ferrari Museum",
               rating: "4.5/5 TripAdvisor (900+ reviews)",
               price: "€15–25/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187802-d2713618-Reviews-Lo_Smeraldo-Maranello_Province_of_Modena_Emilia_Romagna.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187802-d1898956-Reviews-Lo_Smeraldo-Maranello_Province_of_Modena_Emilia_Romagna.html",
               bookingRequired: false
             },
             {
@@ -849,7 +849,7 @@ const TRIP_DATA = {
               distance: "5 min walk from hotel",
               rating: "4.5/5 TripAdvisor",
               price: "€30–50/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d10166898-Reviews-Enoteca_Bellini-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d10090324-Reviews-Enoteca_Bellini_di_Camilla_Bellini_C_s_a_s-Florence_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Reserve via TheFork."
             },
@@ -861,7 +861,7 @@ const TRIP_DATA = {
               distance: "12 min walk from hotel",
               rating: "4.0/5 TripAdvisor (500+ reviews)",
               price: "€25–40/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d8567851-Reviews-Satori_Restaurant-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d8473169-Reviews-Satori-Florence_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Book via TheFork or call the restaurant."
             }
@@ -904,7 +904,7 @@ const TRIP_DATA = {
               distance: "20 min walk (Santa Croce area)",
               rating: "4.5/5 TripAdvisor (1,400+ reviews)",
               price: "€10–16",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d10306453-Reviews-Le_Vespe_Cafe-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d6123447-Reviews-Le_Vespe_Cafe-Florence_Tuscany.html",
               bookingRequired: false
             },
             {
@@ -1038,7 +1038,7 @@ const TRIP_DATA = {
               distance: "12 min walk from hotel",
               rating: "4.5/5 TripAdvisor (3,500+ reviews)",
               price: "€25–45/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1936843-Reviews-Trattoria_Dall_Oste_Chianineria-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12439428-Reviews-Chianineria_Trattoria_Osteria_dall_Oste-Florence_Tuscany.html",
               bookingRequired: true,
               bookingInfo: "Reserve for lunch — popular spot."
             },
@@ -1050,7 +1050,7 @@ const TRIP_DATA = {
               distance: "15 min walk from hotel (Oltrarno)",
               rating: "4.5/5 TripAdvisor (4,300+ reviews)",
               price: "€6–10/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d2369445-Reviews-Gusta_Pizza-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1155597-Reviews-Gustapizza-Florence_Tuscany.html",
               bookingRequired: false
             }
           ]
@@ -1112,7 +1112,7 @@ const TRIP_DATA = {
               distance: "15 min walk from hotel (Oltrarno)",
               rating: "4.5/5 TripAdvisor",
               price: "€25/person (aperitivo package)",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d15541538-Reviews-Loggia_Roof_Bar-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Attraction_Review-g187895-d17326834-Reviews-Loggia_Roof_Bar-Florence_Tuscany.html",
               bookingRequired: false,
               bookingInfo: "Walk in, but arrive by 6pm for a seat."
             },
@@ -1136,7 +1136,7 @@ const TRIP_DATA = {
               distance: "12 min walk from hotel",
               rating: "4.5/5 TripAdvisor (1,200+ reviews)",
               price: "€5–10/drink",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d2086795-Reviews-Caffe_delle_Oblate-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d2433470-Reviews-Caffetteria_delle_Oblate-Florence_Tuscany.html",
               bookingRequired: false
             }
           ]
