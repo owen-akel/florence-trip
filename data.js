@@ -107,56 +107,23 @@ const TRIP_DATA = {
           ]
         },
         {
-          time: "8:00–10:00",
+          time: "7:15–10:00",
           label: "Dinner",
-          description: "First night — walk to a nearby restaurant for a proper Florentine welcome.",
+          description: "First night — reservation confirmed at Osteria Lucignolo (table for 7, confirmation #667).",
+          confirmed: true,
           options: [
             {
-              name: "Trattoria Sostanza (Il Troia)",
-              type: "food",
-              cuisine: "Classic Florentine",
-              description: "Open since 1869. Communal tables, no menus on the wall — just legendary butter chicken, artichoke omelet, and bistecca. Cash only. Book ahead.",
-              distance: "5 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (2,600+ reviews)",
-              price: "€40–60/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d743678-Reviews-Trattoria_Sostanza-Florence_Tuscany.html",
-              bookingRequired: true,
-              bookingInfo: "Call +39 055 212691 — no online booking. Reserve 2–3 days ahead."
-            },
-            {
-              name: "Osteria Vecchio Cancello",
+              name: "Osteria Lucignolo",
               type: "food",
               cuisine: "Traditional Tuscan",
-              description: "No-frills Florentine cooking, covered patio and rustic interior. Homemade pastas, grilled meats, generous portions. Priced for locals, not tourists.",
-              distance: "10 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (400+ reviews)",
+              description: "Cozy, well-loved osteria in the Sant'Ambrogio neighborhood. Traditional Florentine cooking — ribollita, pappardelle, grilled meats — in a warm, unpretentious setting.",
+              distance: "20 min walk or short taxi from hotel",
+              rating: "4.5/5 TripAdvisor",
               price: "€25–40/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d8322795-Reviews-Osteria_Vecchio_Cancello-Florence_Tuscany.html",
-              bookingRequired: false
-            },
-            {
-              name: "Tehran Restaurant",
-              type: "food",
-              cuisine: "Persian",
-              description: "A hidden gem bringing authentic Persian cuisine to central Florence. Beautiful decor with a flower shop inside, attentive service, and richly spiced dishes — kebabs, stews, saffron rice.",
-              distance: "8 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (600+ reviews)",
-              price: "€25–40/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d11890777-Reviews-Ristorante_Persiano_Tehran-Florence_Tuscany.html",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1518498-Reviews-Osteria_Lucignolo-Florence_Tuscany.html",
               bookingRequired: true,
-              bookingInfo: "Reserve on TheFork or call the restaurant."
-            },
-            {
-              name: "Konnubio",
-              type: "food",
-              cuisine: "Contemporary Italian (Michelin-recognized)",
-              description: "Chef Beatrice Segoni's creative take on Tuscan cuisine. Beautiful interior, inventive dishes, natural wines. A splurge-worthy first night option.",
-              distance: "10 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (1,800+ reviews)",
-              price: "€50–70/person",
-              link: "https://www.konnubio.com",
-              bookingRequired: true,
-              bookingInfo: "Book on their website or via TheFork."
+              bookingInfo: "CONFIRMED via OpenTable — Table for 7, 7:15 PM, June 28. Confirmation #667 (Erin Akel).",
+              confirmed: true
             }
           ]
         }
@@ -977,9 +944,10 @@ const TRIP_DATA = {
           ]
         },
         {
-          time: "10:15–12:00",
+          time: "11:45–12:45",
           label: "Museum",
-          description: "Move to an air-conditioned museum before peak heat.",
+          description: "Timed entry confirmed at Galleria dell'Accademia (Michelangelo's David).",
+          confirmed: true,
           options: [
             {
               name: "Galleria dell'Accademia (Michelangelo's David)",
@@ -990,7 +958,8 @@ const TRIP_DATA = {
               price: "€20/pp (with reservation fee online)",
               link: "https://www.galleriaaccademiafirenze.it/en/tickets/",
               bookingRequired: true,
-              bookingInfo: "Book timed entry in advance — summer morning slots sell out."
+              bookingInfo: "CONFIRMED — Timed entry 11:45 AM–12:45 PM, Tuesday July 2.",
+              confirmed: true
             },
             {
               name: "Museo dell'Opera del Duomo",
