@@ -131,291 +131,11 @@ const TRIP_DATA = {
     },
 
     // ============================================================
-    // DAY 2 — Monday, June 29: Florence Art & Culture
+    // DAY 2 — Monday, June 29: Beach Day — Forte dei Marmi or Viareggio
     // ============================================================
     {
       date: "Monday, June 29",
       dayNumber: 2,
-      theme: "Florence Art & Culture",
-      subtitle: "Beat the heat in world-class museums",
-      budgetEstimate: "€700–950",
-      slots: [
-        {
-          time: "7:30",
-          label: "Breakfast",
-          description: "Fuel up before the Uffizi opens — options near the hotel or en route.",
-          options: [
-            {
-              name: "Tino Bistrò",
-              type: "food",
-              cuisine: "International Brunch",
-              description: "400m from the train station. US/UK brunch classics — eggs Benedict, pancakes, avocado toast — plus Italian pastries. Warm lighting, brick walls.",
-              distance: "5 min walk from hotel",
-              rating: "4.5/5 TripAdvisor",
-              price: "€10–18",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d14760017-Reviews-Tino_Bistro_Ex_Tino_Caffe-Florence_Tuscany.html",
-              bookingRequired: false
-            },
-            {
-              name: "Rooster Cafe",
-              type: "food",
-              cuisine: "American-style Breakfast",
-              description: "Pancake stacks, eggs & bacon combos, waffles with fried chicken. Locals keep coming back. Good coffee.",
-              distance: "10 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (700+ reviews)",
-              price: "€10–16",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12962718-Reviews-Rooster_Cafe_Firenze-Florence_Tuscany.html",
-              bookingRequired: false
-            },
-            {
-              name: "Local Bar (Italian style)",
-              type: "food",
-              cuisine: "Italian Breakfast",
-              description: "Stand at the bar for a €3 cappuccino + cornetto like a Florentine. Try any bar on Via dei Panzani or Via Faenza near the hotel.",
-              distance: "2–5 min walk",
-              rating: "N/A — any neighborhood bar",
-              price: "€3–5/person",
-              link: null,
-              bookingRequired: false
-            }
-          ]
-        },
-        {
-          time: "8:15–11:00",
-          label: "Morning Museum",
-          description: "Book the earliest slot to beat crowds AND heat. All options are air-conditioned.",
-          options: [
-            {
-              name: "Uffizi Gallery (8:15 AM early bird)",
-              type: "activity",
-              description: "The world's greatest Renaissance art collection — Botticelli's Birth of Venus, Caravaggio, Leonardo. The 8:15 slot is discounted to €19/pp and gets you in before tour groups. AC throughout.",
-              distance: "15 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (56,000+ reviews)",
-              price: "€25/pp walk-up, €29 online (includes reservation). Afternoon entry from 4pm: €16 walk-up / €20 online",
-              link: "https://www.uffizi.it/en/tickets",
-              bookingRequired: true,
-              bookingInfo: "Book timed entry at uffizi.it — early bird slots sell out weeks ahead in summer."
-            },
-            {
-              name: "Galleria dell'Accademia (Michelangelo's David)",
-              type: "activity",
-              description: "Home to the original David plus unfinished Michelangelo sculptures (the Prisoners). Smaller and faster than the Uffizi — 1–1.5 hours. Fully air-conditioned.",
-              distance: "10 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (38,000+ reviews)",
-              price: "€20/pp (online with reservation fee)",
-              link: "https://www.galleriaaccademiafirenze.it/en/tickets/",
-              bookingRequired: true,
-              bookingInfo: "Book timed 15-min slots via B-Ticket. Morning slots sell out fast."
-            },
-            {
-              name: "Museo Nazionale del Bargello",
-              type: "activity",
-              description: "Florence's sculpture museum in a medieval fortress. Donatello's bronze David, Verrocchio, Cellini. Fraction of the Uffizi crowds, equally stunning. Cool thick stone walls.",
-              distance: "15 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (3,200+ reviews)",
-              price: "€9/pp (or €25 for 3-day combo with Palazzo Davanzati + Medici Chapels)",
-              link: "https://www.b-ticket.com/b-ticket/firenzemusei/default_eng.aspx.html",
-              bookingRequired: false,
-              bookingInfo: "Rarely sells out — can buy at the door."
-            }
-          ]
-        },
-        {
-          time: "11:00–11:30",
-          label: "Quick Walk",
-          description: "If at the Uffizi, step outside to Piazza della Signoria — Palazzo Vecchio's open-air sculpture collection (free to view from the piazza).",
-          options: []
-        },
-        {
-          time: "11:30–12:30",
-          label: "Lunch",
-          description: "Eat near wherever the morning took you, before retreating from the heat.",
-          options: [
-            {
-              name: "Trattoria Mario",
-              type: "food",
-              cuisine: "Traditional Florentine",
-              description: "Behind the Central Market. Communal tables, hand-scrawled menus, huge portions at tiny prices. Florentines' favorite — expect a short queue. Cash only, no reservations.",
-              distance: "8 min walk from hotel (near Mercato Centrale)",
-              rating: "4.0/5 TripAdvisor (6,500+ reviews)",
-              price: "€10–18/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1088282-Reviews-Trattoria_Mario-Florence_Tuscany.html",
-              bookingRequired: false
-            },
-            {
-              name: "Coquinarius",
-              type: "food",
-              cuisine: "Wine Bar / Tuscan Small Plates",
-              description: "Hidden gem near the Duomo. Creative pasta dishes, exceptional wine pairings, cheese and crostini boards. Cozy underground space — cool in summer.",
-              distance: "12 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (2,500+ reviews)",
-              price: "€18–30/person",
-              link: "https://www.coquinarius.it",
-              bookingRequired: true,
-              bookingInfo: "Book via their website or TheFork for lunch."
-            },
-            {
-              name: "SimBIOsi Organic Pizzeria",
-              type: "food",
-              cuisine: "Organic Pizza / Vegetarian-Friendly",
-              description: "Near the Duomo. All organic, high-quality ingredients. Great vegetarian, vegan, and gluten-free options. Sourdough pizza with creative toppings.",
-              distance: "12 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (3,200+ reviews)",
-              price: "€12–20/person",
-              link: "https://www.simbiosi.bio",
-              bookingRequired: false
-            },
-            {
-              name: "Banki Ramen",
-              type: "food",
-              cuisine: "Japanese Ramen",
-              description: "One of Florence's best ramen shops. Authentic broths, simple presentations, not over-topped. A welcome break from Italian food on day two.",
-              distance: "10 min walk from hotel",
-              rating: "4.0/5 TripAdvisor (500+ reviews)",
-              price: "€12–18/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d3678330-Reviews-Banki_Ramen-Florence_Tuscany.html",
-              bookingRequired: false
-            }
-          ]
-        },
-        {
-          time: "12:30–4:00",
-          label: "Afternoon Museum or Rest",
-          description: "Either retreat to the hotel for AC, or continue into another air-conditioned museum.",
-          options: [
-            {
-              name: "Palazzo Pitti + Palatine Gallery",
-              type: "activity",
-              description: "One of Italy's largest palaces — metre-thick stone walls keep it degrees cooler than outside. The Palatine Gallery has Raphael, Titian, Rubens. Combined ticket covers all collections.",
-              distance: "18 min walk from hotel (across the Arno)",
-              rating: "4.5/5 TripAdvisor (14,000+ reviews)",
-              price: "€16/pp (online); Boboli Gardens included",
-              link: "https://www.uffizi.it/en/pitti-palace",
-              bookingRequired: true,
-              bookingInfo: "Book at uffizi.it or buy at the Pitti ticket office."
-            },
-            {
-              name: "Palazzo Davanzati — Museum of the Old Florentine House",
-              type: "activity",
-              description: "14th-century merchant's mansion preserved as a home. See how wealthy Florentines actually lived — furniture, frescoes, kitchenware. Almost no tourists. Cool interior.",
-              distance: "10 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (600+ reviews)",
-              price: "€9/pp (or €25 combo with Bargello + Medici Chapels)",
-              link: "https://www.b-ticket.com/b-Ticket/uffizi/info_venue_palazzo_davanzati_eng.aspx.html",
-              bookingRequired: false
-            },
-            {
-              name: "Return to hotel / pool / rest",
-              type: "activity",
-              description: "The safest option during the heat wave. Recharge for the evening. Peak outdoor temperatures 35–40°C.",
-              distance: "—",
-              rating: "N/A",
-              price: "Free",
-              link: null,
-              bookingRequired: false
-            }
-          ]
-        },
-        {
-          time: "5:30–6:30",
-          label: "Late Afternoon Activity",
-          description: "Temperatures dropping — head out for a lighter activity.",
-          options: [
-            {
-              name: "San Miniato al Monte",
-              type: "activity",
-              description: "Romanesque church (1013 AD) with stunning views. Less crowded than Piazzale Michelangelo, more beautiful. Gregorian chant vespers sometimes at 5:30pm.",
-              distance: "25 min walk from hotel (uphill from Oltrarno)",
-              rating: "4.5/5 TripAdvisor (6,500+ reviews)",
-              price: "Free / donation",
-              link: "https://www.tripadvisor.com/Attraction_Review-g187895-d195736-Reviews-Basilica_San_Miniato_al_Monte-Florence_Tuscany.html",
-              bookingRequired: false
-            },
-            {
-              name: "Boboli Gardens (late afternoon stroll)",
-              type: "activity",
-              description: "If you visited Palazzo Pitti, your ticket includes Boboli. The gardens are at their best in late afternoon light with fewer visitors and cooler air.",
-              distance: "18 min walk from hotel",
-              rating: "4.0/5 TripAdvisor (9,000+ reviews)",
-              price: "Included with Pitti ticket",
-              link: "https://www.uffizi.it/en/boboli-garden",
-              bookingRequired: false
-            },
-            {
-              name: "Santa Maria Novella Basilica & Pharmacy",
-              type: "activity",
-              description: "The basilica is a 3-min walk from the hotel with masterworks by Masaccio and Ghirlandaio. Then visit the Officina Profumo-Farmaceutica — the world's oldest pharmacy (1221), now a fragrance shop.",
-              distance: "3 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (basilica: 8,000+ reviews)",
-              price: "Basilica €7.50; Pharmacy free to enter",
-              link: "https://www.smn.it/en/",
-              bookingRequired: false
-            }
-          ]
-        },
-        {
-          time: "8:30–10:30",
-          label: "Dinner",
-          description: "Full Tuscan dinner. Head to the Oltrarno or stay near the hotel.",
-          options: [
-            {
-              name: "Il Santo Bevitore",
-              type: "food",
-              cuisine: "Modern Tuscan",
-              description: "On Via di Santo Spirito in Oltrarno. Seasonal Tuscan ingredients, modern presentation, excellent wine list. Buzzy atmosphere, well-priced for quality. A local date-night spot.",
-              distance: "15 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (4,400+ reviews)",
-              price: "€35–50/person",
-              link: "https://www.ilsantobevitore.com",
-              bookingRequired: true,
-              bookingInfo: "Book via TheFork or call +39 055 211264."
-            },
-            {
-              name: "Trattoria La Casalinga",
-              type: "food",
-              cuisine: "Traditional Florentine",
-              description: "Family-owned since 1963 in Piazza Santo Spirito. Hearty pastas, beef stew, ribollita. No-frills decor, enormous portions, very fairly priced.",
-              distance: "15 min walk from hotel (Oltrarno)",
-              rating: "4.0/5 TripAdvisor (4,000+ reviews)",
-              price: "€15–25/person",
-              link: "https://www.trattorialacasalinga.it",
-              bookingRequired: false
-            },
-            {
-              name: "Il Cuore — Ristorante Giapponese",
-              type: "food",
-              cuisine: "Japanese (High-end)",
-              description: "Refined Japanese cuisine with top-quality ingredients. Traditional techniques, western presentation. Sushi, sashimi, tempura, omakase-style options. A break from Italian.",
-              distance: "10 min walk from hotel",
-              rating: "9.6/10 TheFork",
-              price: "€40–65/person",
-              link: "https://www.thefork.com/restaurant/il-cuore-ristorante-giapponese-r788937",
-              bookingRequired: true,
-              bookingInfo: "Book on TheFork — popular, especially weekends."
-            },
-            {
-              name: "Taj Palace",
-              type: "food",
-              cuisine: "North Indian",
-              description: "Ranked #1 Indian restaurant in Florence on TripAdvisor. Authentic North Indian recipes, professional chefs, warm service. Excellent tandoori and curry dishes.",
-              distance: "10 min walk from hotel",
-              rating: "4.5/5 TripAdvisor (1,800+ reviews)",
-              price: "€20–35/person",
-              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d2052086-Reviews-Ristorante_Taj_Palace-Florence_Tuscany.html",
-              bookingRequired: true,
-              bookingInfo: "Call for reservation, especially weekends."
-            }
-          ]
-        }
-      ]
-    },
-
-    // ============================================================
-    // DAY 3 — Tuesday, June 30: Beach Day — Forte dei Marmi or Viareggio
-    // ============================================================
-    {
-      date: "Tuesday, June 30",
-      dayNumber: 3,
       theme: "Beach Day Escape",
       subtitle: "Train to the Tuscan coast — sea breeze beats the heat wave",
       budgetEstimate: "€850–1,200",
@@ -603,6 +323,295 @@ const TRIP_DATA = {
               price: "€8–15/person",
               link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d20009104-Reviews-Santo_Falafel-Florence_Tuscany.html",
               bookingRequired: false
+            }
+          ]
+        }
+      ]
+    },
+
+    // ============================================================
+    // DAY 3 — Tuesday, June 30: Florence Art & Culture
+    // ============================================================
+    {
+      date: "Tuesday, June 30",
+      dayNumber: 3,
+      theme: "Florence Art & Culture",
+      subtitle: "Beat the heat in world-class museums",
+      budgetEstimate: "€700–950",
+      slots: [
+        {
+          time: "7:30",
+          label: "Breakfast",
+          description: "Fuel up before the museums open — options near the hotel or en route.",
+          options: [
+            {
+              name: "Tino Bistrò",
+              type: "food",
+              cuisine: "International Brunch",
+              description: "400m from the train station. US/UK brunch classics — eggs Benedict, pancakes, avocado toast — plus Italian pastries. Warm lighting, brick walls.",
+              distance: "5 min walk from hotel",
+              rating: "4.5/5 TripAdvisor",
+              price: "€10–18",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d14760017-Reviews-Tino_Bistro_Ex_Tino_Caffe-Florence_Tuscany.html",
+              bookingRequired: false
+            },
+            {
+              name: "Rooster Cafe",
+              type: "food",
+              cuisine: "American-style Breakfast",
+              description: "Pancake stacks, eggs & bacon combos, waffles with fried chicken. Locals keep coming back. Good coffee.",
+              distance: "10 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (700+ reviews)",
+              price: "€10–16",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d12962718-Reviews-Rooster_Cafe_Firenze-Florence_Tuscany.html",
+              bookingRequired: false
+            },
+            {
+              name: "Local Bar (Italian style)",
+              type: "food",
+              cuisine: "Italian Breakfast",
+              description: "Stand at the bar for a €3 cappuccino + cornetto like a Florentine. Try any bar on Via dei Panzani or Via Faenza near the hotel.",
+              distance: "2–5 min walk",
+              rating: "N/A — any neighborhood bar",
+              price: "€3–5/person",
+              link: null,
+              bookingRequired: false
+            }
+          ]
+        },
+        {
+          time: "8:15–11:00",
+          label: "Morning Museum",
+          description: "Book the earliest slot to beat crowds AND heat. All options are air-conditioned.",
+          options: [
+            {
+              name: "Uffizi Gallery (8:15 AM early bird)",
+              type: "activity",
+              description: "The world's greatest Renaissance art collection — Botticelli's Birth of Venus, Caravaggio, Leonardo. The 8:15 slot is discounted to €19/pp and gets you in before tour groups. AC throughout.",
+              distance: "15 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (56,000+ reviews)",
+              price: "€25/pp walk-up, €29 online (includes reservation). Afternoon entry from 4pm: €16 walk-up / €20 online",
+              link: "https://www.uffizi.it/en/tickets",
+              bookingRequired: true,
+              bookingInfo: "Book timed entry at uffizi.it — early bird slots sell out weeks ahead in summer."
+            },
+            {
+              name: "Museo Nazionale del Bargello",
+              type: "activity",
+              description: "Florence's sculpture museum in a medieval fortress. Donatello's bronze David, Verrocchio, Cellini. Fraction of the Uffizi crowds, equally stunning. Cool thick stone walls.",
+              distance: "15 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (3,200+ reviews)",
+              price: "€9/pp (or €25 for 3-day combo with Palazzo Davanzati + Medici Chapels)",
+              link: "https://www.b-ticket.com/b-ticket/firenzemusei/default_eng.aspx.html",
+              bookingRequired: false,
+              bookingInfo: "Rarely sells out — can buy at the door."
+            }
+          ]
+        },
+        {
+          time: "11:00–11:30",
+          label: "Quick Walk",
+          description: "If at the Uffizi, step outside to Piazza della Signoria — Palazzo Vecchio's open-air sculpture collection (free to view from the piazza).",
+          options: []
+        },
+        {
+          time: "11:45–12:45",
+          label: "Galleria dell'Accademia",
+          description: "Timed entry confirmed — Michelangelo's David.",
+          confirmed: true,
+          options: [
+            {
+              name: "Galleria dell'Accademia (Michelangelo's David)",
+              type: "activity",
+              description: "See the original David plus the unfinished 'Prisoners' — Michelangelo's most haunting works. Small museum, 1 hour. Full AC.",
+              distance: "10 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (38,000+ reviews)",
+              price: "€20/pp",
+              link: "https://www.galleriaaccademiafirenze.it/en/tickets/",
+              bookingRequired: true,
+              bookingInfo: "CONFIRMED — Timed entry 11:45 AM–12:45 PM, Tuesday June 30.",
+              confirmed: true
+            }
+          ]
+        },
+        {
+          time: "12:45–2:00",
+          label: "Lunch",
+          description: "Eat near the Accademia before retreating from the heat.",
+          options: [
+            {
+              name: "Trattoria Mario",
+              type: "food",
+              cuisine: "Traditional Florentine",
+              description: "Behind the Central Market. Communal tables, hand-scrawled menus, huge portions at tiny prices. Florentines' favorite — expect a short queue. Cash only, no reservations.",
+              distance: "8 min walk from hotel (near Mercato Centrale)",
+              rating: "4.0/5 TripAdvisor (6,500+ reviews)",
+              price: "€10–18/person",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d1088282-Reviews-Trattoria_Mario-Florence_Tuscany.html",
+              bookingRequired: false
+            },
+            {
+              name: "Coquinarius",
+              type: "food",
+              cuisine: "Wine Bar / Tuscan Small Plates",
+              description: "Hidden gem near the Duomo. Creative pasta dishes, exceptional wine pairings, cheese and crostini boards. Cozy underground space — cool in summer.",
+              distance: "12 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (2,500+ reviews)",
+              price: "€18–30/person",
+              link: "https://www.coquinarius.it",
+              bookingRequired: true,
+              bookingInfo: "Book via their website or TheFork for lunch."
+            },
+            {
+              name: "SimBIOsi Organic Pizzeria",
+              type: "food",
+              cuisine: "Organic Pizza / Vegetarian-Friendly",
+              description: "Near the Duomo. All organic, high-quality ingredients. Great vegetarian, vegan, and gluten-free options. Sourdough pizza with creative toppings.",
+              distance: "12 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (3,200+ reviews)",
+              price: "€12–20/person",
+              link: "https://www.simbiosi.bio",
+              bookingRequired: false
+            },
+            {
+              name: "Banki Ramen",
+              type: "food",
+              cuisine: "Japanese Ramen",
+              description: "One of Florence's best ramen shops. Authentic broths, simple presentations, not over-topped. A welcome change of pace.",
+              distance: "10 min walk from hotel",
+              rating: "4.0/5 TripAdvisor (500+ reviews)",
+              price: "€12–18/person",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d3678330-Reviews-Banki_Ramen-Florence_Tuscany.html",
+              bookingRequired: false
+            }
+          ]
+        },
+        {
+          time: "2:00–4:30",
+          label: "Afternoon Museum or Rest",
+          description: "Either retreat to the hotel for AC, or continue into another air-conditioned museum.",
+          options: [
+            {
+              name: "Palazzo Pitti + Palatine Gallery",
+              type: "activity",
+              description: "One of Italy's largest palaces — metre-thick stone walls keep it degrees cooler than outside. The Palatine Gallery has Raphael, Titian, Rubens. Combined ticket covers all collections.",
+              distance: "18 min walk from hotel (across the Arno)",
+              rating: "4.5/5 TripAdvisor (14,000+ reviews)",
+              price: "€16/pp (online); Boboli Gardens included",
+              link: "https://www.uffizi.it/en/pitti-palace",
+              bookingRequired: true,
+              bookingInfo: "Book at uffizi.it or buy at the Pitti ticket office."
+            },
+            {
+              name: "Palazzo Davanzati — Museum of the Old Florentine House",
+              type: "activity",
+              description: "14th-century merchant's mansion preserved as a home. See how wealthy Florentines actually lived — furniture, frescoes, kitchenware. Almost no tourists. Cool interior.",
+              distance: "10 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (600+ reviews)",
+              price: "€9/pp (or €25 combo with Bargello + Medici Chapels)",
+              link: "https://www.b-ticket.com/b-Ticket/uffizi/info_venue_palazzo_davanzati_eng.aspx.html",
+              bookingRequired: false
+            },
+            {
+              name: "Return to hotel / pool / rest",
+              type: "activity",
+              description: "The safest option during the heat wave. Recharge for the evening. Peak outdoor temperatures 35–40°C.",
+              distance: "—",
+              rating: "N/A",
+              price: "Free",
+              link: null,
+              bookingRequired: false
+            }
+          ]
+        },
+        {
+          time: "5:30–6:30",
+          label: "Late Afternoon Activity",
+          description: "Temperatures dropping — head out for a lighter activity.",
+          options: [
+            {
+              name: "San Miniato al Monte",
+              type: "activity",
+              description: "Romanesque church (1013 AD) with stunning views. Less crowded than Piazzale Michelangelo, more beautiful. Gregorian chant vespers sometimes at 5:30pm.",
+              distance: "25 min walk from hotel (uphill from Oltrarno)",
+              rating: "4.5/5 TripAdvisor (6,500+ reviews)",
+              price: "Free / donation",
+              link: "https://www.tripadvisor.com/Attraction_Review-g187895-d195736-Reviews-Basilica_San_Miniato_al_Monte-Florence_Tuscany.html",
+              bookingRequired: false
+            },
+            {
+              name: "Boboli Gardens (late afternoon stroll)",
+              type: "activity",
+              description: "If you visited Palazzo Pitti, your ticket includes Boboli. The gardens are at their best in late afternoon light with fewer visitors and cooler air.",
+              distance: "18 min walk from hotel",
+              rating: "4.0/5 TripAdvisor (9,000+ reviews)",
+              price: "Included with Pitti ticket",
+              link: "https://www.uffizi.it/en/boboli-garden",
+              bookingRequired: false
+            },
+            {
+              name: "Santa Maria Novella Basilica & Pharmacy",
+              type: "activity",
+              description: "The basilica is a 3-min walk from the hotel with masterworks by Masaccio and Ghirlandaio. Then visit the Officina Profumo-Farmaceutica — the world's oldest pharmacy (1221), now a fragrance shop.",
+              distance: "3 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (basilica: 8,000+ reviews)",
+              price: "Basilica €7.50; Pharmacy free to enter",
+              link: "https://www.smn.it/en/",
+              bookingRequired: false
+            }
+          ]
+        },
+        {
+          time: "8:30–10:30",
+          label: "Dinner",
+          description: "Full Tuscan dinner. Head to the Oltrarno or stay near the hotel.",
+          options: [
+            {
+              name: "Il Santo Bevitore",
+              type: "food",
+              cuisine: "Modern Tuscan",
+              description: "On Via di Santo Spirito in Oltrarno. Seasonal Tuscan ingredients, modern presentation, excellent wine list. Buzzy atmosphere, well-priced for quality. A local date-night spot.",
+              distance: "15 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (4,400+ reviews)",
+              price: "€35–50/person",
+              link: "https://www.ilsantobevitore.com",
+              bookingRequired: true,
+              bookingInfo: "Book via TheFork or call +39 055 211264."
+            },
+            {
+              name: "Trattoria La Casalinga",
+              type: "food",
+              cuisine: "Traditional Florentine",
+              description: "Family-owned since 1963 in Piazza Santo Spirito. Hearty pastas, beef stew, ribollita. No-frills decor, enormous portions, very fairly priced.",
+              distance: "15 min walk from hotel (Oltrarno)",
+              rating: "4.0/5 TripAdvisor (4,000+ reviews)",
+              price: "€15–25/person",
+              link: "https://www.trattorialacasalinga.it",
+              bookingRequired: false
+            },
+            {
+              name: "Il Cuore — Ristorante Giapponese",
+              type: "food",
+              cuisine: "Japanese (High-end)",
+              description: "Refined Japanese cuisine with top-quality ingredients. Traditional techniques, western presentation. Sushi, sashimi, tempura, omakase-style options. A break from Italian.",
+              distance: "10 min walk from hotel",
+              rating: "9.6/10 TheFork",
+              price: "€40–65/person",
+              link: "https://www.thefork.com/restaurant/il-cuore-ristorante-giapponese-r788937",
+              bookingRequired: true,
+              bookingInfo: "Book on TheFork — popular, especially weekends."
+            },
+            {
+              name: "Taj Palace",
+              type: "food",
+              cuisine: "North Indian",
+              description: "Ranked #1 Indian restaurant in Florence on TripAdvisor. Authentic North Indian recipes, professional chefs, warm service. Excellent tandoori and curry dishes.",
+              distance: "10 min walk from hotel",
+              rating: "4.5/5 TripAdvisor (1,800+ reviews)",
+              price: "€20–35/person",
+              link: "https://www.tripadvisor.com/Restaurant_Review-g187895-d2052086-Reviews-Ristorante_Taj_Palace-Florence_Tuscany.html",
+              bookingRequired: true,
+              bookingInfo: "Call for reservation, especially weekends."
             }
           ]
         }
@@ -944,10 +953,9 @@ const TRIP_DATA = {
           ]
         },
         {
-          time: "11:45–12:45",
+          time: "10:15–12:00",
           label: "Museum",
-          description: "Timed entry confirmed at Galleria dell'Accademia (Michelangelo's David).",
-          confirmed: true,
+          description: "Move to an air-conditioned museum before peak heat.",
           options: [
             {
               name: "Galleria dell'Accademia (Michelangelo's David)",
@@ -958,8 +966,7 @@ const TRIP_DATA = {
               price: "€20/pp (with reservation fee online)",
               link: "https://www.galleriaaccademiafirenze.it/en/tickets/",
               bookingRequired: true,
-              bookingInfo: "CONFIRMED — Timed entry 11:45 AM–12:45 PM, Tuesday July 2.",
-              confirmed: true
+              bookingInfo: "Book timed entry in advance — summer morning slots sell out."
             },
             {
               name: "Museo dell'Opera del Duomo",
